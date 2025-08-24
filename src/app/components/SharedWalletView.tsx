@@ -95,7 +95,7 @@ export default function SharedWalletView() {
           <CardHeader>
             <CardTitle>Create Shared Wallet</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-4">
+          <CardContent>
             <div>
               <Label htmlFor="walletName">Wallet Name</Label>
               <Input
@@ -167,7 +167,7 @@ export default function SharedWalletView() {
             
             return (
               <Card key={wallet.id} className="cursor-pointer hover:shadow-md transition-shadow">
-                <CardContent className="p-6">
+                <CardContent>
                   <div className="flex items-start justify-between mb-4">
                     <div>
                       <h3 className="font-semibold text-gray-900">{wallet.name}</h3>
