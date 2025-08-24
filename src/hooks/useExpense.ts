@@ -53,7 +53,7 @@ export const useExpenses = () => {
       const stored = localStorage.getItem(`expenses_${address}`);
       const storedExpenses = stored ? JSON.parse(stored) : mockExpenses;
       
-      setExpenses(storedExpenses.map((e: any) => ({
+      setExpenses(storedExpenses.map((e) => ({
         ...e,
         date: new Date(e.date)
       })));
