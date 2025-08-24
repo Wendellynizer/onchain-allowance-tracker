@@ -6,7 +6,7 @@ import { Input } from './ui/input';
 import { Label } from './ui/label';
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { useAccount } from 'wagmi';
-import { Users, Plus, DollarSign } from 'lucide-react';
+import { Users, Plus } from 'lucide-react';
 import { formatCurrency } from '@/lib/smart-contract';
 
 interface SharedWallet {

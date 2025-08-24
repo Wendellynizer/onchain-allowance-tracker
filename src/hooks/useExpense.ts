@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useAccount } from 'wagmi';
 import type { Expense, Budget, BudgetHealth, ExpenseCategory } from '@/app/types/expense';
-import { calculateBudgetHealth, formatCurrency } from '@/lib/smart-contract';
+import { calculateBudgetHealth } from '@/lib/smart-contract';
 
 // Mock data for demonstration (in production, this would come from smart contract)
 const mockExpenses: Expense[] = [

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import '@coinbase/onchainkit/styles.css';
 import '@worldcoin/mini-apps-ui-kit-react/styles.css';
-import { MiniKit } from '@worldcoin/minikit-js'
+// import { MiniKit } from '@worldcoin/minikit-js'
 import './globals.css';
 import { Providers } from './providers';
 

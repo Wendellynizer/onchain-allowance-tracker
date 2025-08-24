@@ -8,7 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { useExpenses } from '@/hooks/useExpense';
 import { useAccount } from 'wagmi';
 import { ExpenseCategory } from '@/app/types/expense';
-import { formatCurrency } from '@/lib/smart-contract';
+// import { formatCurrency } from '@/lib/smart-contract';
 
 interface QuickExpenseFormProps {
   onExpenseAdded?: () => void;

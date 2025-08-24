@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import { Home, Plus, BarChart3, Users } from 'lucide-react';
 
 interface BottomNavigationProps {
